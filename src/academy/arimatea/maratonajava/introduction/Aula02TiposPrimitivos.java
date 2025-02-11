@@ -1,6 +1,4 @@
-package academy.arimatea.maratonajava.introducao;
-
-import java.lang.reflect.Array;
+package academy.arimatea.maratonajava.introduction;
 
 public class Aula02TiposPrimitivos {
     public static void main(String[] args) {

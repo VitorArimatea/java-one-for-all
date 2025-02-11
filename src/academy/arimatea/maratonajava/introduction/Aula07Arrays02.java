@@ -1,4 +1,4 @@
-package academy.arimatea.maratonajava.introducao;
+package academy.arimatea.maratonajava.introduction;
 
 public class Aula07Arrays02 {
     public static void main(String[] args) {

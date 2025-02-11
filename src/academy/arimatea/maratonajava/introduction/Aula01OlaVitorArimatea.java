@@ -1,5 +1,5 @@
 // Isso diz onde a classe está localizada
-package academy.arimatea.maratonajava.introducao;
+package academy.arimatea.maratonajava.introduction;
 
 /**
  * Isso é um comentário <strong>javadoc</strong>
