@@ -39,4 +39,20 @@ public class Calculator {
 
         System.out.println("Inside changeTwoNumbers: " + num1 + ", " + num2);
     }
+
+    public void arraySum(int[] numbers) {
+        int sum = 0;
+        for (int num : numbers) {
+            sum += num;
+        }
+        System.out.println(sum);
+    }
+
+    public void sumVarArgs(int... numbers) {
+        int sum = 0;
+        for (int num : numbers) {
+            sum += num;
+        }
+        System.out.println(sum);
+    }
 }
