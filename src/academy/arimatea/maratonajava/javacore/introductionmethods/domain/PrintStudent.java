@@ -1,6 +1,6 @@
 package academy.arimatea.maratonajava.javacore.introductionmethods.domain;
 
-public class printStudent {
+public class PrintStudent {
     public void print(Student student) {
         System.out.println(student.name);
         System.out.println(student.age);

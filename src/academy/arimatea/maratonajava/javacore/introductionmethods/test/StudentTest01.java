@@ -1,7 +1,7 @@
 package academy.arimatea.maratonajava.javacore.introductionmethods.test;
 
 import academy.arimatea.maratonajava.javacore.introductionmethods.domain.Student;
-import academy.arimatea.maratonajava.javacore.introductionmethods.domain.printStudent;
+import academy.arimatea.maratonajava.javacore.introductionmethods.domain.PrintStudent;
 
 public class StudentTest01 {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class StudentTest01 {
         Student student2 = new Student();
         Student student3 = new Student();
 
-        printStudent printer = new printStudent();
+        PrintStudent printer = new PrintStudent();
 
         student.name = "Arthur";
         student.age = 15;
