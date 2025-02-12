@@ -21,5 +21,10 @@ public class CarTest {
 
         System.out.println("\n----Car 2----\n" + "Name: " + car2.name + "\nModel: " + car2.model + "\nYear: "
                 + car2.manufactureYear);
+
+        car2 = car;
+
+        System.out.println("\n----Car 3----\n" + "Name: " + car2.name + "\nModel: " + car2.model + "\nYear: "
+                + car2.manufactureYear);
     }
 }
