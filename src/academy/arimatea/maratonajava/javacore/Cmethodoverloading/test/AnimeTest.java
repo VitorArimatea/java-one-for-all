@@ -1,6 +1,6 @@
-package academy.arimatea.maratonajava.javacore.methodoverloading.test;
+package academy.arimatea.maratonajava.javacore.Cmethodoverloading.test;
 
-import academy.arimatea.maratonajava.javacore.methodoverloading.domain.Anime;
+import academy.arimatea.maratonajava.javacore.Cmethodoverloading.domain.Anime;
 
 public class AnimeTest {
     public static void main(String[] args) {

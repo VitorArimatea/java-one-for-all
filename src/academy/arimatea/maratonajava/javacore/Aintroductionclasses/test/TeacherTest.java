@@ -1,6 +1,6 @@
-package academy.arimatea.maratonajava.javacore.introductionclasses.test;
+package academy.arimatea.maratonajava.javacore.Aintroductionclasses.test;
 
-import academy.arimatea.maratonajava.javacore.introductionclasses.domain.Teacher;
+import academy.arimatea.maratonajava.javacore.Aintroductionclasses.domain.Teacher;
 
 public class TeacherTest {
     public static void main(String[] args) {

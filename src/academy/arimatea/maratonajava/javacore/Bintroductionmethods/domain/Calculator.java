@@ -1,4 +1,4 @@
-package academy.arimatea.maratonajava.javacore.introductionmethods.domain;
+package academy.arimatea.maratonajava.javacore.Bintroductionmethods.domain;
 
 public class Calculator {
 

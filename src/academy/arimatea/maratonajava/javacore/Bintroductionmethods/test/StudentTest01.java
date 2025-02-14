@@ -1,7 +1,7 @@
-package academy.arimatea.maratonajava.javacore.introductionmethods.test;
+package academy.arimatea.maratonajava.javacore.Bintroductionmethods.test;
 
-import academy.arimatea.maratonajava.javacore.introductionmethods.domain.Student;
-import academy.arimatea.maratonajava.javacore.introductionmethods.domain.PrintStudent;
+import academy.arimatea.maratonajava.javacore.Bintroductionmethods.domain.Student;
+import academy.arimatea.maratonajava.javacore.Bintroductionmethods.domain.PrintStudent;
 
 public class StudentTest01 {
     public static void main(String[] args) {

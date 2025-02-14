@@ -1,4 +1,4 @@
-package academy.arimatea.maratonajava.javacore.introductionclasses.domain;
+package academy.arimatea.maratonajava.javacore.Aintroductionclasses.domain;
 
 public class Car {
     public String name;

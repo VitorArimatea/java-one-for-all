@@ -1,10 +1,14 @@
-package academy.arimatea.maratonajava.javacore.methodoverloading.domain;
+package academy.arimatea.maratonajava.javacore.Cmethodoverloading.domain;
 
 public class Anime {
     private String name;
     private String type;
     private int episodes;
     private String genre;
+
+    public Anime() {
+
+    }
 
     public void init (String name, String type, int episodes) {
         this.name = name;

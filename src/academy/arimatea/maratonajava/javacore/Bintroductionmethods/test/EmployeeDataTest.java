@@ -1,6 +1,6 @@
-package academy.arimatea.maratonajava.javacore.introductionmethods.test;
+package academy.arimatea.maratonajava.javacore.Bintroductionmethods.test;
 
-import academy.arimatea.maratonajava.javacore.introductionmethods.domain.Employee;
+import academy.arimatea.maratonajava.javacore.Bintroductionmethods.domain.Employee;
 
 public class EmployeeDataTest {
     public static void main(String[] args) {
