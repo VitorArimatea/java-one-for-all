@@ -1,6 +1,6 @@
-package academy.arimatea.maratonajava.javacore.staticmodifier.test;
+package academy.arimatea.maratonajava.javacore.Fstaticmodifier.test;
 
-import academy.arimatea.maratonajava.javacore.staticmodifier.domain.Car;
+import academy.arimatea.maratonajava.javacore.Fstaticmodifier.domain.Car;
 
 public class CarTest {
     public static void main(String[] args) {

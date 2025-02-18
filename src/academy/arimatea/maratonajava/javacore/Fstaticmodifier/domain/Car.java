@@ -1,4 +1,4 @@
-package academy.arimatea.maratonajava.javacore.staticmodifier.domain;
+package academy.arimatea.maratonajava.javacore.Fstaticmodifier.domain;
 
 public class Car {
     private String name = "Default Car";
