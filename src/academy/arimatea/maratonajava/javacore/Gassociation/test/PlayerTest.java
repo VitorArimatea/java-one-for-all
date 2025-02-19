@@ -1,6 +1,7 @@
 package academy.arimatea.maratonajava.javacore.Gassociation.test;
 
 import academy.arimatea.maratonajava.javacore.Gassociation.domain.Player;
+import academy.arimatea.maratonajava.javacore.Gassociation.domain.Team;
 
 public class PlayerTest {
     public static void main(String[] args) {
@@ -13,5 +14,9 @@ public class PlayerTest {
         for (Player player : players) {
             player.print();
         }
+
+        Team team = new Team("Brazil", players);
+
+        team.print();
     }
 }
