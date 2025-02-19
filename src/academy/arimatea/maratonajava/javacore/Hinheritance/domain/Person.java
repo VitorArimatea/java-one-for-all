@@ -1,9 +1,9 @@
 package academy.arimatea.maratonajava.javacore.Hinheritance.domain;
 
 public class Person {
-    private String name;
-    private String cpf;
-    private Address address;
+    protected String name = "Default User";
+    protected String cpf;
+    protected Address address;
 
     public void print() {
         System.out.println("---- Person Data ----");

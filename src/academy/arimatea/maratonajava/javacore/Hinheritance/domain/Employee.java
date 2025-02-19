@@ -6,7 +6,7 @@ public class Employee extends Person {
     @Override
     public void print() {
         super.print();
-        System.out.println("---- Employee Data " + this.getName() + " ----");
+        System.out.println("---- Employee Data " + this.name + " ----");
         System.out.println("Salary: " + "R$" + this.salary);
     }
 
