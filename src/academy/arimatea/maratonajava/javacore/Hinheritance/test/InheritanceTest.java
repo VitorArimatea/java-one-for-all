@@ -36,16 +36,14 @@ public class InheritanceTest {
         System.out.println("Enter your cpf: ");
         String cpf = input.nextLine();
 
-        Person person = new Person();
-        person.setName(name);
+        Person person = new Person(name);
         person.setCpf(cpf);
         person.setAddress(address);
 
         System.out.println("Enter your salary: ");
         double salary = input.nextDouble();
 
-        Employee employee = new Employee();
-        employee.setName(name);
+        Employee employee = new Employee(name);
         employee.setCpf(cpf);
         employee.setAddress(address);
         employee.setSalary(salary);
