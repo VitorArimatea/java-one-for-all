@@ -5,6 +5,10 @@ public class Car {
     public static final double SPEED_LIMIT = 100;
     public final Buyer BUYER = new Buyer();
 
+    public final void print() {
+        System.out.println(this.name);
+    }
+
     public String getName() {
         return name;
     }
