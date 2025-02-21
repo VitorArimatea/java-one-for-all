@@ -2,26 +2,19 @@ package academy.arimatea.maratonajava.javacore.Kenum.domain;
 
 public class Client {
     private String name;
-    private String type;
-    public static final String PESSOA_FISICA = "PESSOA_FISICA";
-    public static final String PESSOA_JURIDICA = "PESSOA_JURIDICA";
+    private ClientType clientType;
 
+    public Client(String name, ClientType clientType) {
+        this.name = name;
+        this.clientType = clientType;
+    }
 
     @Override
     public String toString() {
         return "Client{" +
                 "name='" + name + '\'' +
-                ", type='" + type + '\'' +
+                ", clientType=" + clientType +
                 '}';
-    }
-
-    public Client(String name, String type) {
-        if(!type.equals(PESSOA_FISICA) && !type.equals(PESSOA_JURIDICA)) {
-            return;
-        }
-
-        this.name = name;
-        this.type = type;
     }
 
     public String getName() {
@@ -32,11 +25,11 @@ public class Client {
         this.name = name;
     }
 
-    public String getType() {
-        return type;
+    public ClientType getClientType() {
+        return clientType;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setClientType(ClientType clientType) {
+        this.clientType = clientType;
     }
 }
