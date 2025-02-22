@@ -12,5 +12,10 @@ public class ClientTest {
         System.out.println(client);
         System.out.println(client2);
         System.out.println(PaymentType.DEBIT.calculateDiscount(100) + "%");
+        System.out.println(PaymentType.CREDIT.calculateDiscount(100) + "%");
+        ClientType clientType = ClientType.valueOf("NATURAL_PERSON");
+        System.out.println(clientType);
+        ClientType clientType1 = ClientType.clientTypeForNameReport("Pessoa Jurídica");
+        System.out.println(clientType1);
     }
 }
