@@ -13,6 +13,7 @@ public class ProductTaxCalculate {
         System.out.println("Tax: " + tax);
 
         if(product instanceof Tomato) {
+            Tomato tomato = (Tomato) product;
 
 //            Other declarations options
 //            ((Tomato) product).getExpirationDate();
