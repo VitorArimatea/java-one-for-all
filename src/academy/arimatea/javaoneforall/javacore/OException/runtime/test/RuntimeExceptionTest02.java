@@ -1,6 +1,6 @@
 package academy.arimatea.javaoneforall.javacore.OException.runtime.test;
 
-public class RuntimeExceptionTest2 {
+public class RuntimeExceptionTest02 {
     public static void main(String[] args) {
         try {
             int divResult = division(20, 0);
