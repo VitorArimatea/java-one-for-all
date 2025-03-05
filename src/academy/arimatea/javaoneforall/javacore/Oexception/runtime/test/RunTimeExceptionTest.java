@@ -1,4 +1,4 @@
-package academy.arimatea.javaoneforall.javacore.OException.runtime.test;
+package academy.arimatea.javaoneforall.javacore.Oexception.runtime.test;
 
 public class RunTimeExceptionTest {
     public static void main(String[] args) {

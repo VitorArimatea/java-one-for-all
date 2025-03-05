@@ -1,4 +1,4 @@
-package academy.arimatea.javaoneforall.javacore.OException.error.test;
+package academy.arimatea.javaoneforall.javacore.Oexception.error.test;
 
 public class StackOverflowTest {
     public static void main(String[] args) {

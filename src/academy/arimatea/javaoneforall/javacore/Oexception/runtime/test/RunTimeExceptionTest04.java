@@ -1,4 +1,4 @@
-package academy.arimatea.javaoneforall.javacore.OException.runtime.test;
+package academy.arimatea.javaoneforall.javacore.Oexception.runtime.test;
 
 import java.io.FileNotFoundException;
 import java.sql.SQLException;
@@ -22,10 +22,8 @@ public class RunTimeExceptionTest04 {
 
         try {
             maybeThrowException();
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+        } catch (SQLException | FileNotFoundException e) {
+            e.printStackTrace();
         }
     }
 

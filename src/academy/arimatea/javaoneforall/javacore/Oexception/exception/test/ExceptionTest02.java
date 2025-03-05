@@ -1,4 +1,4 @@
-package academy.arimatea.javaoneforall.javacore.OException.exception.test;
+package academy.arimatea.javaoneforall.javacore.Oexception.exception.test;
 
 import java.io.File;
 import java.io.IOException;
