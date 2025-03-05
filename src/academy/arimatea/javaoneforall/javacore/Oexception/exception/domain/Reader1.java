@@ -1,0 +1,11 @@
+package academy.arimatea.javaoneforall.javacore.Oexception.exception.domain;
+
+import java.io.Closeable;
+import java.io.IOException;
+
+public class Reader1 implements Closeable {
+    @Override
+    public void close() throws IOException {
+        System.out.println("Closing Reader");
+    }
+}
