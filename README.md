@@ -21,3 +21,10 @@
 - Interfaces
 - Polymorphism
 - Exception
+- Utility Classes
+  - Wrappers
+  - Strings
+  - Dates
+  - Internacionalization
+  - Resource Bundle
+  - Regex
