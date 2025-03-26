@@ -28,3 +28,4 @@
   - Internacionalization
   - Resource Bundle
   - Regex
+  - IO: File, FileWriter, FileReader
