@@ -1,6 +1,6 @@
 # Java One For All
-## 🚧 In progress
-
+## In progress📚
+ 
 ### Steps
 - Saída de dados pelo terminal com sout: System.out.print
 - Tipos Primitivos / Primitive Data Types
@@ -28,4 +28,5 @@
   - Internacionalization
   - Resource Bundle
   - Regex
-  - IO: File, FileWriter, FileReader
+  - IO: File, FileWriter, FileReader, BufferedWriter and BufferedReader;
+  - NIO: Path, Paths, Files
